@@ -12,30 +12,19 @@ function drawLine() {
 
     context.beginPath();
     context.fillStyle = 'black';
-    context.beginPath();
+    context.beginPath()
     context.rect(50,50,300,300);
     context.fill();
 
     context.beginPath(); 
     context.fillStyle = '#66ff00';
     context.beginPath();
-    context.rect(65,65,50,50);
-    context.rect(100,100,50,50);
-    context.rect(135,135,50,50);
-
-    context.rect(285,65,50,50);
-    context.rect(250,100,50,50);
-    context.rect(215,135,50,50);
-
-    context.rect(65,285,50,50);
-    context.rect(100,250,50,50);
-    context.rect(135,215,50,50);
-
-    context.rect(285,285,50,50);
-    context.rect(250,250,50,50);
-    context.rect(215,215,50,50);
-
-    context.rect(175,175,50,50);
+    context.rect(130,135,50,50);
+    context.rect(180,135,50,50);
+    context.rect(230,135,50,50);
+    context.rect(180,175,50,50);
+    context.rect(80,230,50,50)
+    context.rect(280,230,50,50);
     context.fill();
 
 
